@@ -1,0 +1,70 @@
+@charset "utf-8";
+@import "normalize";
+@import "fonts";
+@import "general";
+@import "container";
+@import "visally-hidden";
+@import "blocks/blocks-all";
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  font-size: 24px;
+  line-height: 1.5;
+}
+.visually-hidden {
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
+}
+
+.main {
+  margin-top: 80px;
+}
+
+.hero {
+  background-color: #f2f2f2;
+}
+
+.hero__content {
+  padding: 170px 0;
+  max-width: 447px;
+}
+
+.hero__heading {
+  margin: 0;
+  margin-bottom: 24px;
+  font-weight: 100;
+  font-size: 56px;
+  line-height: 64px;
+  letter-spacing: -1px;
+  color: #2D314D;
+}
+
+.hero__text {
+  margin: 0;
+  margin-bottom: 36px;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: -0.28125px;
+  color: #9597A5;
+}/*# sourceMappingURL=main.css.map */
+.hero__inner{
+  display: flexж
+  justify-content: space-between;
+  align-items: center;
+}
+.hero__inner{
+  display: flex;
+}
